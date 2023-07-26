@@ -179,7 +179,11 @@
                 </configuration>
             </plugin>
 		<!-- CODE COVERAGE -->
+<<<<<<< HEAD
 		<plugin>
+=======
+	            <plugin>
+>>>>>>> eea707bd3a9bb59feeb77e0e3fba77040712d6ec
                      <groupId>org.apache.maven.plugins</groupId>
                      <artifactId>maven-war-plugin</artifactId>
                      <version>3.2.2</version>
@@ -187,7 +191,11 @@
  		    <plugin>
  		        <groupId>org.jacoco</groupId>
  		        <artifactId>jacoco-maven-plugin</artifactId>
+<<<<<<< HEAD
  		        <version>0.8.4</version>
+=======
+			<version>0.8.4</version>
+>>>>>>> eea707bd3a9bb59feeb77e0e3fba77040712d6ec
  		        <executions>
  		            <execution>
  		                <id>jacoco-initialize</id>
